@@ -12,7 +12,7 @@
 
 <form action="create" method="post">
 	@csrf
-firstname: <input type="text" name="fname" value="{{old('fname')}}"
+first: <input type="text" name="fname" value="{{old('fname')}}"
 
 ><br>
 lastname: <input type="text" name="lname" value="{{old('lname')}}"
